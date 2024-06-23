@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+body {
+  background: #e5eaf0;
+  font-family: "Sora", "Courier New", Courier, monospace;
+}
+
+.card {
+  margin: 10rem 40rem;
+  gap: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  margin: 25px;
+  height: 220px;
+  width: 325px;
+}
+
+.card .tag {
+  display: inline-block;
+  text-align: center;
+  margin-left: 5px;
+  height: 0px;
+  width: 100px;
+  position: relative;
+}
+
+.card .tag .tag-text {
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card .tag .border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 13px solid #e6d6fc;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.card .tag {
+  color: #883ae1;
+}
+
+.card .content .title {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.card .content .body {
+  font-size: 14px;
+  margin-left: 5px;
+  text-align:left;
+  color: #6C727F;
+}
+
+.card .content .small-text {
+  font-size: 10px;
+  color: #6C727F;
+  margin-top: 20px;
+  margin-left: 5px;
+}
